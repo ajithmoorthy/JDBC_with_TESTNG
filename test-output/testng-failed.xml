@@ -3,11 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="Cal.Sample.Connection2">
+      <class name="Cal.Sample.test1">
         <methods>
-          <include name="Insert"/>
+          <include name="insert"/>
+          <include name="update"/>
+          <include name="testingconnection"/>
+          <include name="close2"/>
         </methods>
-      </class> <!-- Cal.Sample.Connection2 -->
+      </class> <!-- Cal.Sample.test1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
